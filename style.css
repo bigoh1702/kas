@@ -1,0 +1,96 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f3e5f5;
+    /* Warna latar belakang ungu muda */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.login-container,
+.container {
+    background-color: #ffffff;
+    /* Warna latar belakang putih untuk kontainer */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #6a1b9a;
+    /* Warna judul ungu tua */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #6a1b9a;
+    /* Warna border ungu tua */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #6a1b9a;
+    /* Warna tombol ungu tua */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4a148c;
+    /* Warna tombol saat hover */
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    /* Menghilangkan bullet point */
+    padding: 0;
+}
+
+li {
+    background-color: #e1bee7;
+    /* Warna latar belakang untuk setiap item */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #6a1b9a;
+    /* Warna border ungu tua */
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #6a1b9a;
+    /* Warna link ungu tua */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #4a148c;
+    /* Warna link saat hover */
+}
